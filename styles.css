@@ -75,7 +75,7 @@ footer {
   height: 200px;
   background: #DCDCDC;
   border-style: dashed;
-  margin-top: 150px;
+  margin-top: 50px;
 }
 .button,
 .definition {
@@ -171,27 +171,43 @@ margin-right: 50%;
    background-color: white;
  }
 
- .codeimg {
-   display: flex;
-   margin-left: 6.5%;
-   height: 50%;
-   width: 50%;
- }
 
  .indexbody2 {
    font-family: cursive;
    background-color: #66ffcc;
  }
+
  .contactinfo1 {
    color: black;
    text-decoration: underline;
    text-decoration-style: wavy;
+ }
+
+
+
+
+ .otakon {
+   height: 500px;
+   width: 500px;
+   border-style: double;
+   padding-left: 10px;
+   padding-right: 10px;
+   background-color: white;
+   border-style: groove;
+   border-color: black;
+   margin-top: 10px;
 
  }
 
- .contactinfo2 {
-   margin-left: 41.5%;
-   color: black;
-   text-decoration: underline;
-   text-decoration-style: wavy;
+.ota {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+ .kon {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-family: fantasy;
+
  }
