@@ -1,5 +1,5 @@
 .body1 {
-  background-color: teal;
+  background-color: #66ffcc;
 }
 
 
@@ -46,17 +46,31 @@ div {
   width: 500px;
   border-style: double;
   border-radius: 80%;
+  margin-top: 20px;
+
+}
+.contactimg {
+  width: 50%;
+  margin-bottom: 20px;
+  border-style:double;
+  margin-top: 65px;
+}
+
+.button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
 }
 
 footer {
-
-  position:absolute;
-
-  width:100%;
-  height:60px;   /* Height of the footer */
-  padding-bottom: 10px;
-}
+  position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   text-align: center;
+font-family: cursive;
+ }
 
  .banner {
   background-color: white;
@@ -67,7 +81,7 @@ footer {
   font-style: italic;
   font-family: fantasy;
   border-spacing: inherit;
-  padding-top: 10px;
+
 }
 
 .gurl {
@@ -75,13 +89,27 @@ footer {
   height: 200px;
   background: #DCDCDC;
   border-style: dashed;
-  margin-top: 50px;
+  margin-top: 10px;
+  margin-bottom: 120px;
 }
 .button,
 .definition {
   transition: 0.3s;
   font-family: fantasy;
 }
+.button {
+left: 50%;
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.button2 {
+  width: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-family: fantasy;
+}
+
 .definition {
   position: absolute;
   top: 50%;
@@ -162,33 +190,35 @@ margin-right: 50%;
   padding-right: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
+  margin-top:  60px;
   background-color:  #E6E6FA;
+  font-family: fantasy;
 
 }
 
 .indexbody1 {
    font-family: cursive;
-   background-color: white;
+   background-color: #6A5ACD;
  }
 
 
  .indexbody2 {
    font-family: cursive;
-   background-color: #66ffcc;
+   background-color: teal;
  }
 
- .contactinfo1 {
+ .contactinfo1  {
+   display: flex;
+   justify-content: center;
+   align-items: center;
    color: black;
-   text-decoration: underline;
-   text-decoration-style: wavy;
+   font-family: monospace;
+
  }
-
-
-
 
  .otakon {
-   height: 500px;
-   width: 500px;
+   height: 355px;
+   width: 355px;
    border-style: double;
    padding-left: 10px;
    padding-right: 10px;
