@@ -2,7 +2,6 @@
   background-color: #66ffcc;
 }
 
-
 ul {
   background-color: black;
   height: 100%;
@@ -29,6 +28,7 @@ li a {
 li a:hover {
   background-color: teal;
 }
+
 .nav {
   height: 55%;
   width: 100%;
@@ -47,33 +47,31 @@ div {
   border-style: double;
   border-radius: 80%;
   margin-top: 20px;
-
 }
+
 .contactimg {
   width: 40%;
   margin-bottom: 10px;
-  border-style:double;
-  margin-top: 10px;
-
+  border-style: double;
+  margin-top: 20px;
 }
 
 .button1 {
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 
 footer {
   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   text-align: center;
-font-family: cursive;
- }
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: cursive;
+}
 
- .banner {
+.banner {
   background-color: white;
   background-size: 50%;
   border-style: double;
@@ -82,7 +80,6 @@ font-family: cursive;
   font-style: italic;
   font-family: fantasy;
   border-spacing: inherit;
-
 }
 
 .gurl {
@@ -93,16 +90,19 @@ font-family: cursive;
   margin-top: 10px;
   margin-bottom: 120px;
 }
+
 .button,
 .definition {
   transition: 0.3s;
   font-family: fantasy;
 }
+
 .button {
-left: 50%;
-padding-top: 20px;
-padding-bottom: 20px;
+  left: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
+
 .button2 {
   width: 40%;
   padding-top: 20px;
@@ -129,101 +129,100 @@ padding-bottom: 20px;
   padding-bottom: 30px;
 }
 
-
 .gurl:hover .button {
   opacity: 0;
 }
+
 .gurl:hover .definition {
   opacity: 1;
-
 }
-
-
 
 .dadsection {
   border-style: solid;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
-  border-bottom-left-radius:10px;
+  border-bottom-left-radius: 10px;
   font-size: 20px;
   padding-left: 10px;
   padding-right: 10px;
   padding-bottom: 10px;
   padding-top: 10px;
-  margin-top:  60px;
-  background-color:  #E6E6FA;
+  margin-top: 60px;
+  background-color: #E6E6FA;
   font-family: fantasy;
-
 }
 
 .indexbody1 {
-   font-family: cursive;
-   background-color: #6A5ACD;
- }
+  font-family: cursive;
+  background-color: #6A5ACD;
+}
 
+.indexbody2 {
+  font-family: cursive;
+  background-color: #00FFFF;
+}
 
- .indexbody2 {
-   font-family: cursive;
-   background-color: teal;
- }
+.contactinfo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-family: monospace;
+}
 
- .contactinfo1  {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   color: black;
-   font-family: monospace;
-
- }
-
- .otakon {
-   height: 355px;
-   width: 355px;
-   border-style: double;
-   padding-left: 10px;
-   padding-right: 10px;
-   background-color: white;
-   border-style: groove;
-   border-color: black;
-   margin-top: 10px;
-
- }
+.otakon {
+  height: 355px;
+  width: 355px;
+  border-style: double;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: white;
+  border-style: groove;
+  border-color: black;
+  margin-top: 10px;
+}
 
 .ota {
   display: flex;
   justify-content: center;
   align-items: center;
 }
- .kon {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   font-family: fantasy;
 
- }
- .row {
-   display: flex;
-   flex-wrap: wrap;
-   margin-left: 100px;
+.kon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: fantasy;
+}
 
- }
- .photo {
-   height: 40%;
-   width: 40%;
-   margin-right: 50px;
- }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 100px;
+}
+
+.photo {
+  height: 40%;
+  width: 40%;
+  margin-right: 50px;
+}
 
 .projects1 {
   text-align: center;
   font-family: cursive;
-  text-decoration: underline;
+
 }
 
 .projects {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: fantasy;
+  margin-bottom: 10px;
+  font-size: 30px;
 }
- .conbod {
-   background-color: #FF4500;
- }
+
+.conbod {
+  background-color: #7CFC00;
+}
